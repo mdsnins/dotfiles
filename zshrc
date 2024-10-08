@@ -10,7 +10,8 @@ source $ZSH/oh-my-zsh.sh
 
  alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias p="python3"
+alias p3="python3"
+alias p='PYTHONSTARTUP="$HOME/.p.startup.py" python3'
 
 alias ga="git add"
 alias gc="git commit"
